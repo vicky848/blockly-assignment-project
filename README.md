@@ -1,3 +1,56 @@
+This is a responsive  portfolio website built using React.js, Bootstrap, and CSS. I created this project to showcase my skills, experience, and personal projects in a clean and professional way.
+
+
+---
+
+🚀 Features
+
+Fully responsive design (works on mobile, tablet, and desktop)
+
+Clean, modern layout using Bootstrap and custom CSS
+
+Built using modular React components
+
+Navigation bar (Navbar) for smooth scrolling across all sections
+
+Organized and easy-to-understand code structure
+
+
+
+---
+
+🧩 Components Used
+
+The project is structured with the following main components:
+
+Navbar – Sticky navigation bar for smooth access to each section
+
+Hero – Top banner introducing myself
+
+About – Short summary about me and my background
+
+Skills – Technologies and tools I’ve learned so far
+
+Projects – A display of the projects I’ve worked on
+
+Contact – My contact information or a simple contact form
+
+
+Each section is built as a separate React component and styled using a combination of Bootstrap classes and custom CSS.
+
+
+---
+
+🛠 Tech Stack
+
+⚛️ React.js – For building the UI with components
+
+🎨 Bootstrap – For responsive design and layout
+
+💅 CSS – For additional custom styling
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
