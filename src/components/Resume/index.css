@@ -1,0 +1,58 @@
+.resume-main-container {
+    background-color: #f8f9fa;
+    padding: 3rem 1rem;
+}
+
+.resume-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.pointer-img {
+    width: 50px;
+    height: auto;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+
+.resume-buttom{
+    margin-left: 90px;
+    margin: 10px;
+}
+
+@media (max-width: 768px) {
+    .resume-heading {
+        font-size: 2rem;
+    }
+
+    .pointer-img {
+        width: 40px;
+    }
+
+    .btn-group a {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .resume-heading {
+        font-size: 1.5rem;
+    }
+
+    .btn-group {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+    .btn-group a {
+        font-size: 0.95rem;
+        padding: 0.6rem 1rem;
+    }
+}

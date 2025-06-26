@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+/* Light theme (default) */
+body {
+  background-color: #fff;
+  color: #000;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark theme override */
+body.dark-theme {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+/* Navbar background override (optional) */
+body.dark-theme .navbar {
+  background-color: #1e1e1e;
+}
+
+.theme-toggle-btn {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+}
